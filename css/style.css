@@ -90,4 +90,33 @@ th, td {
 }
 
 /*Meet the team*/
-
+.teamcard{
+  text-align: center;
+  display: grid;
+  }
+.card-text{
+  font-family: serif;
+  font-weight:normal;
+  font-size: 10px;
+}
+.card-img{
+  border-top-style: : groove;
+  border-bottom-left-radius: 20px;
+  border-right-width: 18px;
+  border-color: #005CA9;
+  border-right-style: groove;
+  border-bottom-style: groove;
+  border-spacing: 2px;
+  border-width: 5px;
+  border-radius: 50%;
+}
+.cardfooter{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  background-color: #F7F7F7;
+  padding: 12px;
+  border-bottom-right-radius: 5px;
+}
+#team{
+  text-align: center;
+}
