@@ -38,6 +38,7 @@
 
 body {
   padding-top: 54px;
+  font-family: 'Open Sans', sans-serif;
   /*background-color: #005CA9;*/
 }
 h1, h2, h3, h4 {
@@ -93,22 +94,21 @@ th, td {
 .teamcard{
   text-align: center;
   display: grid;
+
   }
 .card-text{
-  font-family: serif;
+  font-family: sans-serif,serif;
   font-weight:normal;
-  font-size: 10px;
+  font-size: 15px;
 }
-.card-img{
-  border-top-style: : groove;
-  border-bottom-left-radius: 20px;
-  border-right-width: 18px;
+.img-thumbnail{
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
   border-color: #005CA9;
   border-right-style: groove;
   border-bottom-style: groove;
   border-spacing: 2px;
-  border-width: 5px;
-  border-radius: 50%;
+  border-width: 2px;
 }
 .cardfooter{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -120,3 +120,4 @@ th, td {
 #team{
   text-align: center;
 }
+
