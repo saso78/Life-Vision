@@ -121,3 +121,8 @@ th, td {
   text-align: center;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto ;
+  justify-content: space-around;
+}
